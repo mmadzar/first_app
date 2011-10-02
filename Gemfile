@@ -31,6 +31,7 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test do
+  gem 'autotest', '4.4.6', :require => 'zentest'
   gem 'rspec', '2.6.0'
   gem 'webrat', '0.7.3'
 end
